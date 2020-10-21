@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-oct-2018, 19:13:53
+    Author     : diego
+*/
+
+
+
+* { margin: 0px;
+padding: 0px;
+}
+
+
+body {background:url("../Imagen/fondo.jpg");
+font-family: serif;
+}
+#menu {  text-align: center;
+font-size: 18px;
+width: 820px;
+margin: 20px auto;
+}
+#menu ul { list-style-type: none;}
+#menu ul li.nivel1 { float: left;
+width: 162px;
+margin-right: 2px;
+}
+#menu ul li a {display: block;
+text-decoration: none;
+color: #fff;
+background-color: #191970;
+border: solid 1px #fff;
+padding: 8px;
+position: relative;
+}
+#menu ul li:hover {position: relative;
+}
+#menu ul li a:hover, #menu ul li:hover a.nivel1 {background-color: #6CC;
+color: #000;
+position: relative;
+}
+#menu ul li a.nivel1 {display: block!important;display: none;
+position: relative;
+}
+#menu ul li ul {display: none;
+}
+#menu ul li a:hover ul, #menu ul li:hover ul {display: block;
+position: absolute;left: 0px;
+}
+#menu ul li ul li a {width: 160px;
+padding: 6px 0px 8px 0px;
+border-top-color: #000;
+}
+#menu ul li ul li a:hover {border-top-color: #000;
+position: relative;
+}
+table.falsa {border-collapse:collapse;
+border:0px;
+float: left;
+position: relative;
+}
